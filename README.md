@@ -1,7 +1,7 @@
-# FreeCom - The DOS Command Line Interface #
+# gFreeCom - The DOS Command Line Interface (with a twist!) #
 ********************************************
 
-Source code distribution of FreeCOM - a Command line interface
+Source code distribution of gFreeCOM - a Command line interface
 program, which substitutes COMMAND.COM
 
 <!-- Upstream Master -->
@@ -10,12 +10,12 @@ program, which substitutes COMMAND.COM
 [![Build](../../workflows/Build/badge.svg)](../../actions)
 
 ## About ##
-This software is part of the FreeDOS project. 
+This software is forked from and not affiliated with the FreeDOS project. 
 Please visit the freedos web page at http://www.freedos.org/ for more information about FreeDOS.
 
-FreeCOM implements the command processor for the DOS kernel.  It is usually the first program started by the kernel and provides a command line interface to interactively run other DOS programs.
+gFreeCOM implements the command processor for the DOS kernel.  It is usually the first program started by the kernel and provides a graphical command line interface to interactively run other DOS programs more pleasantly on flat-panel displays (such as laptop computers).
 
-Additionally, FreeCOM implements a BATCH file processor allowing scripting of commands as well.  See http://help.fdos.org/en/hhstndrd/batch/index.htm for more help with batch commands.
+Additionally, gFreeCOM implements a BATCH file processor allowing scripting of commands as well.  See http://help.fdos.org/en/hhstndrd/batch/index.htm for more help with batch commands.
 
 
 ## More information ##
@@ -30,9 +30,7 @@ The COMMAND.COM web site (including source hosting) is at
 
    https://github.com/FDOS/freecom
 
-Bugs may be filed at https://github.com/FDOS/freecom/issues
-or you may send any bug reports, comments or other info to the
-one of the FreeDOS mailing lists.  For subscription and archives, see:
+Bugs probably shouldn't be filed at https://github.com/FDOS/freecom/issues since it's not affiliated with them, unless it's actually part of the original FreeCOM.  For subscription and archives, see:
 
    http://www.freedos.org/forums/
 
